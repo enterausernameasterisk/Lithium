@@ -15,8 +15,8 @@
 ## Usage
 
 > Inject into one of the supported experiences.
-
-- Hit your Execute button.
+- Enter ```loadstring(game:HttpGet('https://raw.githubusercontent.com/enterausernameasterisk/Lithium/refs/heads/main/source'))()```
+- Hit Execute.
 - Enjoy.
 
 ## Author
