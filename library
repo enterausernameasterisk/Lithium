@@ -477,10 +477,10 @@ closeButton.MouseLeave:Connect(function()
 end)
 
 closeButton.MouseButton1Click:Connect(function()
+    _G.Unnamed = false
     unnamed:Destroy()
     shadow:Destroy()
     notifications:Destroy()
-    _G.Unnamed = false
 end)
 
 local minimizeButton = Instance.new("ImageButton")
