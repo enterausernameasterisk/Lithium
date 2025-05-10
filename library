@@ -1,4 +1,6 @@
-_G.Unnamed = true
+if getgenv().Unnamed then return end
+
+getgenv().Unnamed = true
 
 local library = {
     Flags = {},
@@ -344,6 +346,7 @@ Info.Text = Info.Text or "Window"
 local Theme = Themes[library.Theme]
 
 if Theme == nil then
+    getgenv().Unnamed = false
     error("There's no theme called: "..library.Theme, 0)
 end
 
@@ -477,7 +480,7 @@ closeButton.MouseLeave:Connect(function()
 end)
 
 closeButton.MouseButton1Click:Connect(function()
-    _G.Unnamed = false
+    getgenv().Unnamed = false
     unnamed:Destroy()
     shadow:Destroy()
     notifications:Destroy()
