@@ -8,7 +8,7 @@
 
 > Lithium is a *`Script Hub`* intended for *`Roblox Executors`*. 
 
-### 🏠 Supports [Forsaken](https://www.roblox.com/games/18687417158/Forsaken) & [The Electric State](https://www.roblox.com/games/2262441883/Electric-State-DarkRP-Beta)
+### 🏠 Supports [Forsaken](https://www.roblox.com/games/18687417158/Forsaken)
 
 ### 🌟 Designed to support a wide range of executor environments, in short it'll run on anything.
 
