@@ -1,4 +1,4 @@
-getgenv().Unnamed = true
+_G.Unnamed = true
 
 local library = {
     Flags = {},
@@ -480,7 +480,7 @@ closeButton.MouseButton1Click:Connect(function()
     unnamed:Destroy()
     shadow:Destroy()
     notifications:Destroy()
-    getgenv().Unnamed = false
+    _G.Unnamed = false
 end)
 
 local minimizeButton = Instance.new("ImageButton")
